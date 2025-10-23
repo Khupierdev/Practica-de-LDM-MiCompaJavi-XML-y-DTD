@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carta_restaurante_desaynos>
+    <platos>
+        <plato_1>
+            <nombre> Gofres Belgas </nombre>
+            <precio> 5.95 </precio>
+            <descripcion> Dos de nuestros famosos Gofres Belgas con abundante sirope </descripcion>
+            <calorias> 650 </calorias>
+        </plato_1>
+        <plato_2>
+            <nombre> Gofres Belgas con fresas </nombre>
+            <precio> 7.95 </precio>
+            <descripcion> Ligeros gofres belgas cubiertos de fresas y nata montada </descripcion>
+            <calorias> 900 </calorias>
+        </plato_2>
+        <plato_3>
+            <nombre> Gofres Belgas con frutas del bosque </nombre>
+            <precio> 8.95 </precio>
+            <descripcion> Ligeros gofres belgas cubiertos de frutas del bosque y nata montada </descripcion>
+            <calorias> 900 </calorias>
+        </plato_3>
+        <plato_4>
+            <nombre> Tostada Francesa </nombre>
+            <precio> 4.50 </precio>
+            <descripcion> Dos gruesas rebanadas de nuestro pan francés casero </descripcion>
+            <calorias> 600 </calorias>
+        </plato_4>
+        <plato_5>
+            <nombre> Desayono de la casa </nombre>
+            <precio> 6.95 </precio>
+            <descripcion> Dos huevos, bacon o salchichas, tostada y patatas fritas </descripcion>
+            <calorias> 950 </calorias>
+        </plato_5>
+    </platos>
+</carta_restaurante_desaynos>

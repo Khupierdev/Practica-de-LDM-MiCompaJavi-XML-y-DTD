@@ -1,0 +1,94 @@
+EJERCICIO 3 
+
+//DOCUMENTO 1 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+    <deportista>
+        <deporte>Atletismo</deporte> <!-- Error 1: Añadida etiqueta de cierre -->
+        <nombre>Jesse Owens</nombre>
+    </deportista>
+    <deportista> <!-- Error 2 y 3: Corregido el anidamiento y la etiqueta de cierre -->
+        <deporte>Natación</deporte>
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>
+ 
+
+//DOCUMENTO 2 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas> <!-- Error 1: Añadido un elemento raíz único para contener las películas y el autor -->
+    <pelicula>
+        <titulo>Con faldas y a lo loco</titulo>
+        <director>Billy Wilder</director>
+    </pelicula>
+    <pelicula>
+        <director>Leo McCarey</director>
+        <titulo>Sopa de ganso</titulo>
+    </pelicula>
+    <autor>barto</autor> <!-- Error 2: Corregido el elemento autor -->
+</peliculas>
+
+
+ 
+
+//DOCUMENTO 3 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+    <titulo>XML explicado a los niños</titulo> <!-- Error 1: Corregido el nombre de la etiqueta a minúsculas -->
+    <parrafo>El <abreviatura>XML</abreviatura> define cómo crear lenguajes de marcas.</parrafo> <!-- Error 1: Corregido el nombre de la etiqueta -->
+    <parrafo>Las marcas se añaden a un documento de texto para añadir información.</parrafo> <!-- Error 1: Corregido el nombre de la etiqueta -->
+    <enlace>www.example.org</enlace> <!-- Error 2: Cambiado el nombre de la etiqueta a uno válido -->
+</texto>
+
+
+ 
+
+//DOCUMENTO 4 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<geografia_mundial> <!-- Error 1: Eliminado el espacio del nombre de la etiqueta -->
+    <pais>
+        <nombre_pais>España</nombre_pais> <!-- Anidamiento y nombre más claro -->
+        <continente>Europa</continente>
+        <capital nombre="Madrid"/> <!-- Error 3: Corregido el atributo y la etiqueta de capital -->
+    </pais> <!-- Error 2: Asegurada la correcta jerarquía de elementos -->
+</geografia_mundial>
+
+
+ 
+
+//DOCUMENTO 5 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+    <programa nombre="Firefox" licencia="MPL" /> <!-- Error 1: Eliminado el atributo de licencia duplicado -->
+    <programa nombre="LibreOffice" licencia="LGPL" />
+    <programa nombre="Inkscape" licencia="GPL" /> <!-- Error 2: Añadidas las comillas al valor del atributo -->
+</programas>
+
+
+ 
+
+//DOCUMENTO 6 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<mundiales-de-futbol>
+    <mundial>
+        <pais>España</pais> <!-- Error 1: Corregido a un elemento válido -->
+        <año>1982</año> <!-- Error 2: Corregido a un nombre de elemento válido -->
+    </mundial>
+</mundiales-de-futbol>
+
+
+ 
+
+//DOCUMENTO 7 
+
+<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte>
+    <bicicleta velocidad="v&lt;100km/h" /> <!-- Error 1: Reemplazado < por &lt; -->
+    <patinete velocidad_maxima="50 km/h" /> <!-- Error 2: Corregida la etiqueta de autocierre. Además, los nombres de atributos no deben contener espacios -->
+</mediosDeTransporte>

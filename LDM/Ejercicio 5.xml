@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE persona [ 
+<!ELEMENT persona EMPTY> 
+<!ATTLIST persona <!--nombre--> CDATA <!--#IMPLIED-->> <!--Hay que cambiar #IMPILED por #REQUIRED; y el atributo dni no está definido-->
+]> 
+<persona dni="03141592E" />

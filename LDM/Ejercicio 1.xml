@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<!DOCTYPE pr>
+<entrega>
+    <Pedido>
+        <Destinatario_Pedido>Vicent Gomez</Destinatario_Pedido>
+        <Articulo_Pedido>
+            <modelo>o89q</modelo>
+            Patinete Electrico
+        </Articulo_Pedido>
+        <Direccion_Entrega>
+            <Calle>Cardenal Benlloch 123</Calle>
+            <Piso>Quinto piso, letra B</Piso>
+        </Direccion_Entrega>
+        <Fecha_Entrega>19-10-2021</Fecha_Entrega>
+    </Pedido>
+</entrega>
