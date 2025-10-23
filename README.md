@@ -14,7 +14,7 @@ El proyecto está organizado en varios archivos XML numerados como ejercicios, j
   - `nota interna.xml`: Ejemplo de XML con DTD interna.
   - `notas.dtd`: Definición de tipo de documento (DTD) para validar estructuras de notas.
 - **Ejercicio 5.xml**, **Ejercicio 6.xml**: Más ejercicios XML con variaciones y correcciones.
-- **Diagrama forma 1.odg**, **Diagrama forma 2.odg**: Diagramas posiblemente relacionados con la estructura o flujo de los ejercicios (archivos en formato LibreOffice Draw).
+- **Ejercicio 2 - Diagrama v1.jpg**, **Ejercicio 2 - Diagrama v2.jpg**: Diagramas que desciben la estrutura del Ejercicio 2 de dos formas distintas uno es un diagrama de arbol y el otro un diagrama de capas en ambos se muestra la estrutura de dicho ejercicio.
 
 ---
 
